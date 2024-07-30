@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Web Page</h1>
+    
+    <div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><span style="color:#565656">Make this Notebook Trusted to load map: File -> Trust Notebook</span><iframe srcdoc="&lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+        &lt;head&gt;
+            
+            &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+            
+                &lt;script&gt;
+                    L_NO_TOUCH = false;
+                    L_DISABLE_3D = false;
+                &lt;/script&gt;
+            
+            &lt;style&gt;html, body {width: 100%;height: 100%;margin: 0;padding: 0;}&lt;/style&gt;
+            &lt;style&gt;#map {position:absolute;top:0;bottom:0;right:0;left:0;}&lt;/style&gt;
+            &lt;script src=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js&quot;&gt;&lt;/script&gt;
+            &lt;script src=&quot;https://code.jquery.com/jquery-3.7.1.min.js&quot;&gt;&lt;/script&gt;
+            &lt;script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;
+            &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js&quot;&gt;&lt;/script&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css&quot;/&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css&quot;/&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css&quot;/&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css&quot;/&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css&quot;/&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css&quot;/&gt;
+            
+                    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
+                        initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
+                    &lt;style&gt;
+                        #map_842f49e439a8bcc003352cc8f4d31f74 {
+                            position: relative;
+                            width: 100.0%;
+                            height: 100.0%;
+                            left: 0.0%;
+                            top: 0.0%;
+                        }
+                        .leaflet-container { font-size: 1rem; }
+                    &lt;/style&gt;
+                
+        &lt;/head&gt;
+        &lt;body&gt;
+            
+            
+                    &lt;div class=&quot;folium-map&quot; id=&quot;map_842f49e439a8bcc003352cc8f4d31f74&quot; &gt;&lt;/div&gt;
+                
+        &lt;/body&gt;
+        &lt;script&gt;
+            
+            
+                    var map_842f49e439a8bcc003352cc8f4d31f74 = L.map(
+                        &quot;map_842f49e439a8bcc003352cc8f4d31f74&quot;,
+                        {
+                            center: [46.729498898820005, 18.2139497553],
+                            crs: L.CRS.EPSG3857,
+                            zoom: 14,
+                            zoomControl: true,
+                            preferCanvas: false,
+                        }
+                    );
+        
+                    
+        
+                
+            
+                    var tile_layer_65297613bcc348e09dc0a8d76cfb56bf = L.tileLayer(
+                        &quot;http://services.arcgisonline.com/ArcGis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}.png&quot;,
+                        {&quot;attribution&quot;: &quot;Esri Satellite&quot;, &quot;detectRetina&quot;: false, &quot;maxZoom&quot;: 18, &quot;minZoom&quot;: 0, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
+                    );
+                
+            
+                    tile_layer_65297613bcc348e09dc0a8d76cfb56bf.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+        
+                function geo_json_90024c4cf55ff5deccbc0d8e29e8cfae_onEachFeature(feature, layer) {
+                    layer.on({
+                    });
+                };
+                var geo_json_90024c4cf55ff5deccbc0d8e29e8cfae = L.geoJson(null, {
+                        onEachFeature: geo_json_90024c4cf55ff5deccbc0d8e29e8cfae_onEachFeature,
+                    
+                });
+        
+                function geo_json_90024c4cf55ff5deccbc0d8e29e8cfae_add (data) {
+                    geo_json_90024c4cf55ff5deccbc0d8e29e8cfae
+                        .addData(data);
+                }
+                    geo_json_90024c4cf55ff5deccbc0d8e29e8cfae_add({&quot;features&quot;: [{&quot;geometry&quot;: {&quot;coordinates&quot;: [[[18.18671936, 46.7346784059], [18.1891472296, 46.7355397505], [18.1891706505, 46.7355480244], [18.189208377, 46.7355618042], [18.1893659845, 46.7353614742], [18.1893152322, 46.7353439974], [18.1892918113, 46.7353357236], [18.1885097695, 46.7350626163], [18.1868598938, 46.7344824482], [18.1868068784, 46.7346061978], [18.18671936, 46.7346784059]]], &quot;type&quot;: &quot;Polygon&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
+                geo_json_90024c4cf55ff5deccbc0d8e29e8cfae.setStyle(function(feature) {return feature.properties.style;});
+        
+                
+            
+                    geo_json_90024c4cf55ff5deccbc0d8e29e8cfae.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    var marker_53fa58eb48784f1ac2de6372e0409ea9 = L.marker(
+                        [46.735026428277344, 18.188053228644073],
+                        {}
+                    ).addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                var popup_ff45526334360493a426a7d5cbabc552 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        
+                
+                    
+                        var html_8350d5714b0af9e0d71b77c10d34b7f0 = $(`&lt;div id=&quot;html_8350d5714b0af9e0d71b77c10d34b7f0&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Nagyszokoly zk 2506&lt;/div&gt;`)[0];
+                        popup_ff45526334360493a426a7d5cbabc552.setContent(html_8350d5714b0af9e0d71b77c10d34b7f0);
+                    
+                
+        
+                marker_53fa58eb48784f1ac2de6372e0409ea9.bindPopup(popup_ff45526334360493a426a7d5cbabc552)
+                ;
+        
+                
+            
+            
+        
+                function geo_json_d17b3519a5a358e2c434b4ac1cdae1aa_onEachFeature(feature, layer) {
+                    layer.on({
+                    });
+                };
+                var geo_json_d17b3519a5a358e2c434b4ac1cdae1aa = L.geoJson(null, {
+                        onEachFeature: geo_json_d17b3519a5a358e2c434b4ac1cdae1aa_onEachFeature,
+                    
+                });
+        
+                function geo_json_d17b3519a5a358e2c434b4ac1cdae1aa_add (data) {
+                    geo_json_d17b3519a5a358e2c434b4ac1cdae1aa
+                        .addData(data);
+                }
+                    geo_json_d17b3519a5a358e2c434b4ac1cdae1aa_add({&quot;features&quot;: [{&quot;geometry&quot;: {&quot;coordinates&quot;: [[[18.1947112543, 46.729924672], [18.195319222, 46.7301163635], [18.1967251746, 46.730564136], [18.1972160422, 46.7307153552], [18.197365986, 46.7304177938], [18.196798363, 46.7302390107], [18.1949611992, 46.7296746464], [18.1947112543, 46.729924672]]], &quot;type&quot;: &quot;Polygon&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
+                geo_json_d17b3519a5a358e2c434b4ac1cdae1aa.setStyle(function(feature) {return feature.properties.style;});
+        
+                
+            
+                    geo_json_d17b3519a5a358e2c434b4ac1cdae1aa.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    var marker_95fa3e503e730626e241c897ea2bd20a = L.marker(
+                        [46.73018803790469, 18.196075869307005],
+                        {}
+                    ).addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                var popup_4d9e7e3868d750fd914242d1ab7cd944 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        
+                
+                    
+                        var html_584dde107837fc82ebf55ccdb6cb4763 = $(`&lt;div id=&quot;html_584dde107837fc82ebf55ccdb6cb4763&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Nagyszokoly zk 2059&lt;/div&gt;`)[0];
+                        popup_4d9e7e3868d750fd914242d1ab7cd944.setContent(html_584dde107837fc82ebf55ccdb6cb4763);
+                    
+                
+        
+                marker_95fa3e503e730626e241c897ea2bd20a.bindPopup(popup_4d9e7e3868d750fd914242d1ab7cd944)
+                ;
+        
+                
+            
+            
+        
+                function geo_json_c5bda1fc75e4fdd7c7cc1258f809c212_onEachFeature(feature, layer) {
+                    layer.on({
+                    });
+                };
+                var geo_json_c5bda1fc75e4fdd7c7cc1258f809c212 = L.geoJson(null, {
+                        onEachFeature: geo_json_c5bda1fc75e4fdd7c7cc1258f809c212_onEachFeature,
+                    
+                });
+        
+                function geo_json_c5bda1fc75e4fdd7c7cc1258f809c212_add (data) {
+                    geo_json_c5bda1fc75e4fdd7c7cc1258f809c212
+                        .addData(data);
+                }
+                    geo_json_c5bda1fc75e4fdd7c7cc1258f809c212_add({&quot;features&quot;: [{&quot;geometry&quot;: {&quot;coordinates&quot;: [[[18.1825483913, 46.739924951], [18.1828055386, 46.7400465621], [18.1835770166, 46.7404095927], [18.1842364531, 46.7407420781], [18.1848992088, 46.7410314017], [18.1850678441, 46.7408797422], [18.1846970524, 46.7407446781], [18.1827279757, 46.73974369], [18.1825483913, 46.739924951]]], &quot;type&quot;: &quot;Polygon&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
+                geo_json_c5bda1fc75e4fdd7c7cc1258f809c212.setStyle(function(feature) {return feature.properties.style;});
+        
+                
+            
+                    geo_json_c5bda1fc75e4fdd7c7cc1258f809c212.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    var marker_87cd79429e331be6f1c5e787c4e7d5d0 = L.marker(
+                        [46.74038400644028, 18.18375894528395],
+                        {}
+                    ).addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                var popup_ee9efe8e1fe75c86a9731a2850b2b136 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        
+                
+                    
+                        var html_658e911710564ff945bb030e6f1ef921 = $(`&lt;div id=&quot;html_658e911710564ff945bb030e6f1ef921&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Nagyszokoly zk 2112/1&lt;/div&gt;`)[0];
+                        popup_ee9efe8e1fe75c86a9731a2850b2b136.setContent(html_658e911710564ff945bb030e6f1ef921);
+                    
+                
+        
+                marker_87cd79429e331be6f1c5e787c4e7d5d0.bindPopup(popup_ee9efe8e1fe75c86a9731a2850b2b136)
+                ;
+        
+                
+            
+            
+        
+                function geo_json_bbbe95c26255d3dcbb12fb964b649f87_onEachFeature(feature, layer) {
+                    layer.on({
+                    });
+                };
+                var geo_json_bbbe95c26255d3dcbb12fb964b649f87 = L.geoJson(null, {
+                        onEachFeature: geo_json_bbbe95c26255d3dcbb12fb964b649f87_onEachFeature,
+                    
+                });
+        
+                function geo_json_bbbe95c26255d3dcbb12fb964b649f87_add (data) {
+                    geo_json_bbbe95c26255d3dcbb12fb964b649f87
+                        .addData(data);
+                }
+                    geo_json_bbbe95c26255d3dcbb12fb964b649f87_add({&quot;features&quot;: [{&quot;geometry&quot;: {&quot;coordinates&quot;: [[[18.1827279757, 46.73974369], [18.1846970524, 46.7407446781], [18.1847720047, 46.7406408883], [18.1848549666, 46.7405272632], [18.1847887116, 46.7404970716], [18.1841430599, 46.7402024794], [18.1828783092, 46.7395909947], [18.1827279757, 46.73974369]]], &quot;type&quot;: &quot;Polygon&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
+                geo_json_bbbe95c26255d3dcbb12fb964b649f87.setStyle(function(feature) {return feature.properties.style;});
+        
+                
+            
+                    geo_json_bbbe95c26255d3dcbb12fb964b649f87.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    var marker_2939814313852211f284860980e91d52 = L.marker(
+                        [46.74017467144038, 18.18382932471734],
+                        {}
+                    ).addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                var popup_fe5cb4243e1b739943abddf1d715c90c = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        
+                
+                    
+                        var html_17a48c623f853b48c8f89e555fb3b02d = $(`&lt;div id=&quot;html_17a48c623f853b48c8f89e555fb3b02d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Nagyszokoly zk 2112/2&lt;/div&gt;`)[0];
+                        popup_fe5cb4243e1b739943abddf1d715c90c.setContent(html_17a48c623f853b48c8f89e555fb3b02d);
+                    
+                
+        
+                marker_2939814313852211f284860980e91d52.bindPopup(popup_fe5cb4243e1b739943abddf1d715c90c)
+                ;
+        
+                
+            
+            
+        
+                function geo_json_1b8ee58066160ac7fcbbbd9ddff1fc42_onEachFeature(feature, layer) {
+                    layer.on({
+                    });
+                };
+                var geo_json_1b8ee58066160ac7fcbbbd9ddff1fc42 = L.geoJson(null, {
+                        onEachFeature: geo_json_1b8ee58066160ac7fcbbbd9ddff1fc42_onEachFeature,
+                    
+                });
+        
+                function geo_json_1b8ee58066160ac7fcbbbd9ddff1fc42_add (data) {
+                    geo_json_1b8ee58066160ac7fcbbbd9ddff1fc42
+                        .addData(data);
+                }
+                    geo_json_1b8ee58066160ac7fcbbbd9ddff1fc42_add({&quot;features&quot;: [{&quot;geometry&quot;: {&quot;coordinates&quot;: [[[18.1844980077, 46.7336728354], [18.1852099814, 46.7339067538], [18.1859996952, 46.7341889388], [18.1868598938, 46.7344824482], [18.1869859588, 46.7343727468], [18.1862624562, 46.7341225585], [18.1858034503, 46.7339427459], [18.1845878481, 46.7335376712], [18.1844980077, 46.7336728354]]], &quot;type&quot;: &quot;Polygon&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
+                geo_json_1b8ee58066160ac7fcbbbd9ddff1fc42.setStyle(function(feature) {return feature.properties.style;});
+        
+                
+            
+                    geo_json_1b8ee58066160ac7fcbbbd9ddff1fc42.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    var marker_6fc96930be04660b896ed63851769abd = L.marker(
+                        [46.734006917746086, 18.1857191267609],
+                        {}
+                    ).addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                var popup_c442a564f6ae4d53b273afde6264ca53 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        
+                
+                    
+                        var html_02309902e8ab7c46b06efb61a933b569 = $(`&lt;div id=&quot;html_02309902e8ab7c46b06efb61a933b569&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Nagyszokoly zk 2508&lt;/div&gt;`)[0];
+                        popup_c442a564f6ae4d53b273afde6264ca53.setContent(html_02309902e8ab7c46b06efb61a933b569);
+                    
+                
+        
+                marker_6fc96930be04660b896ed63851769abd.bindPopup(popup_c442a564f6ae4d53b273afde6264ca53)
+                ;
+        
+                
+            
+            
+        
+                function geo_json_9bb5e795498c7e44a2edc90c3f42b7e8_onEachFeature(feature, layer) {
+                    layer.on({
+                    });
+                };
+                var geo_json_9bb5e795498c7e44a2edc90c3f42b7e8 = L.geoJson(null, {
+                        onEachFeature: geo_json_9bb5e795498c7e44a2edc90c3f42b7e8_onEachFeature,
+                    
+                });
+        
+                function geo_json_9bb5e795498c7e44a2edc90c3f42b7e8_add (data) {
+                    geo_json_9bb5e795498c7e44a2edc90c3f42b7e8
+                        .addData(data);
+                }
+                    geo_json_9bb5e795498c7e44a2edc90c3f42b7e8_add({&quot;features&quot;: [{&quot;geometry&quot;: {&quot;coordinates&quot;: [[[18.1883062983, 46.7224326648], [18.1910876073, 46.7233290408], [18.1911953364, 46.7231364281], [18.1896894374, 46.722654542], [18.1884281648, 46.7222563553], [18.1883062983, 46.7224326648]]], &quot;type&quot;: &quot;Polygon&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
+                geo_json_9bb5e795498c7e44a2edc90c3f42b7e8.setStyle(function(feature) {return feature.properties.style;});
+        
+                
+            
+                    geo_json_9bb5e795498c7e44a2edc90c3f42b7e8.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    var marker_0fbc93c7eba10c8cc619e188874fbeab = L.marker(
+                        [46.722791946901324, 18.18976661854303],
+                        {}
+                    ).addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                var popup_cee931edca75e126729b2dd06261f40a = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        
+                
+                    
+                        var html_6c8226ce3bbd3a9f9bb1152c895b0fea = $(`&lt;div id=&quot;html_6c8226ce3bbd3a9f9bb1152c895b0fea&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Nagyszokoly zk 2743&lt;/div&gt;`)[0];
+                        popup_cee931edca75e126729b2dd06261f40a.setContent(html_6c8226ce3bbd3a9f9bb1152c895b0fea);
+                    
+                
+        
+                marker_0fbc93c7eba10c8cc619e188874fbeab.bindPopup(popup_cee931edca75e126729b2dd06261f40a)
+                ;
+        
+                
+            
+            
+        
+                function geo_json_f2e70e6ece1fc3914c1ce9fb6eceeb7f_onEachFeature(feature, layer) {
+                    layer.on({
+                    });
+                };
+                var geo_json_f2e70e6ece1fc3914c1ce9fb6eceeb7f = L.geoJson(null, {
+                        onEachFeature: geo_json_f2e70e6ece1fc3914c1ce9fb6eceeb7f_onEachFeature,
+                    
+                });
+        
+                function geo_json_f2e70e6ece1fc3914c1ce9fb6eceeb7f_add (data) {
+                    geo_json_f2e70e6ece1fc3914c1ce9fb6eceeb7f
+                        .addData(data);
+                }
+                    geo_json_f2e70e6ece1fc3914c1ce9fb6eceeb7f_add({&quot;features&quot;: [{&quot;geometry&quot;: {&quot;coordinates&quot;: [[[18.1920871573, 46.7393350493], [18.1937595734, 46.7394160055], [18.1937961527, 46.739419879], [18.1943161861, 46.7394696685], [18.1949303004, 46.7395282586], [18.1957887399, 46.7396111689], [18.19606313, 46.7396375165], [18.1960657469, 46.7396375361], [18.1962486737, 46.7396551009], [18.1966119108, 46.7396902099], [18.1966759396, 46.7396960874], [18.1967672356, 46.7396328964], [18.1969061696, 46.7393712403], [18.1982649655, 46.7372744377], [18.1984889323, 46.7369306482], [18.1987606101, 46.7364657626], [18.1988342921, 46.736357456], [18.1989536534, 46.7361739204], [18.1991038749, 46.7359420342], [18.1994123631, 46.7354657262], [18.1994499069, 46.7354084291], [18.19980775, 46.7348722122], [18.2002475388, 46.7342007587], [18.2005320316, 46.733751258], [18.2006742762, 46.7335265073], [18.2008151688, 46.7333044453], [18.2008768978, 46.733206844], [18.2010187989, 46.7330036816], [18.2012400151, 46.7326661618], [18.2018124315, 46.7317959652], [18.2021301701, 46.7313107202], [18.2023674678, 46.7309481279], [18.2026530624, 46.7305094242], [18.2026785418, 46.7304700291], [18.2027215238, 46.7303992765], [18.2027913215, 46.7302873394], [18.2030678222, 46.7298440688], [18.2031079886, 46.7297858902], [18.2031856906, 46.7296704131], [18.2033932455, 46.7293678742], [18.2033085935, 46.7293429546], [18.203297859, 46.7293599681], [18.2017240074, 46.7317611202], [18.2012396128, 46.7316126688], [18.2011888314, 46.7315969965], [18.201104191, 46.7315711756], [18.2009453341, 46.7315223104], [18.2005182236, 46.7313922758], [18.2004218663, 46.7313627685], [18.2002695235, 46.7313157502], [18.1999739398, 46.7312253794], [18.1998437104, 46.7311866223], [18.1996848557, 46.7311377553], [18.1992173945, 46.7309948195], [18.200036718, 46.7297351274], [18.2001842429, 46.7295068172], [18.2000150409, 46.7294506762], [18.1998701318, 46.7296790057], [18.1995837864, 46.7295842044], [18.1994210975, 46.7295299105], [18.1993807559, 46.7295161145], [18.1983382559, 46.7291682564], [18.1984412352, 46.7290268816], [18.1985054512, 46.7289373967], [18.1992784424, 46.7292013724], [18.1997326069, 46.7293568041], [18.2003320279, 46.7284328376], [18.2003481236, 46.7284077674], [18.199883301, 46.7282648537], [18.1990916907, 46.7280205358], [18.1989901217, 46.7279900886], [18.1989833818, 46.7280026333], [18.1989484876, 46.728058151], [18.1988746323, 46.7281781523], [18.1986262903, 46.7285766406], [18.1985309481, 46.7287315673], [18.1984933656, 46.7287915629], [18.198471894, 46.7288255891], [18.1984692065, 46.7288300673], [18.1984116453, 46.7289124048], [18.1983112683, 46.7290546986], [18.1982831416, 46.7290958722], [18.1982108624, 46.7291987915], [18.1981051234, 46.7293491419], [18.1980783616, 46.729386727], [18.1978842016, 46.7296677648], [18.1977623777, 46.7298422852], [18.1977570025, 46.7298512415], [18.1977489966, 46.7298610777], [18.1976258067, 46.7300391863], [18.1975374559, 46.7301653758], [18.1974557598, 46.7302844178], [18.1973741061, 46.7304007612], [18.197365986, 46.7304177938], [18.1972160422, 46.7307153552], [18.1971592866, 46.7308291859], [18.1971123155, 46.7309035052], [18.1970398748, 46.7310163187], [18.1969741175, 46.7311201857], [18.1969123988, 46.7312168857], [18.1968292062, 46.7313476116], [18.1965366919, 46.7318069409], [18.1964615467, 46.7319251318], [18.1964588731, 46.7319287103], [18.1963866151, 46.7320298294], [18.1963049849, 46.7321443729], [18.1962621502, 46.7322052281], [18.1962166561, 46.7322687623], [18.1961296636, 46.7323913623], [18.1961189834, 46.732404777], [18.1959771239, 46.7326043356], [18.1958352632, 46.732803894], [18.1956786678, 46.7330249333], [18.1956733204, 46.7330320904], [18.1955874623, 46.7331654938], [18.1955405153, 46.733238013], [18.195331222, 46.733563914], [18.1952279113, 46.7337250751], [18.1951071633, 46.7339130946], [18.1950682792, 46.7339721794], [18.1950293665, 46.7340330633], [18.1950253272, 46.7340402302], [18.194942111, 46.7341718535], [18.1948816933, 46.7342685618], [18.1948387551, 46.7343357129], [18.1948011502, 46.7343966065], [18.1947340473, 46.7345022609], [18.1946615394, 46.7346186705], [18.194574282, 46.7347574604], [18.1945353825, 46.7348174446], [18.1944910493, 46.734889983], [18.1943944183, 46.735042197], [18.1943554754, 46.7351048798], [18.1942252482, 46.7353126194], [18.1939487328, 46.7357504687], [18.1937272154, 46.7361032644], [18.1935661322, 46.7363584526], [18.1935177855, 46.7364363583], [18.1935828895, 46.7364566401], [18.193901911, 46.7365553003], [18.1920978972, 46.7393180369], [18.1920871573, 46.7393350493]]], &quot;type&quot;: &quot;Polygon&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
+                geo_json_f2e70e6ece1fc3914c1ce9fb6eceeb7f.setStyle(function(feature) {return feature.properties.style;});
+        
+                
+            
+                    geo_json_f2e70e6ece1fc3914c1ce9fb6eceeb7f.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    var marker_b4a6130b3b9e60b593b02c42111c43e5 = L.marker(
+                        [46.73466531182639, 18.197179496877382],
+                        {}
+                    ).addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                var popup_2d300c12e1f948baf0f131260bac5d4f = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        
+                
+                    
+                        var html_cb54d884a3333758367d3b5f59ef6972 = $(`&lt;div id=&quot;html_cb54d884a3333758367d3b5f59ef6972&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Nagyszokoly kt 0228/34&lt;/div&gt;`)[0];
+                        popup_2d300c12e1f948baf0f131260bac5d4f.setContent(html_cb54d884a3333758367d3b5f59ef6972);
+                    
+                
+        
+                marker_b4a6130b3b9e60b593b02c42111c43e5.bindPopup(popup_2d300c12e1f948baf0f131260bac5d4f)
+                ;
+        
+                
+            
+            
+        
+                function geo_json_218e96206049461989e974dcf4f850d7_onEachFeature(feature, layer) {
+                    layer.on({
+                    });
+                };
+                var geo_json_218e96206049461989e974dcf4f850d7 = L.geoJson(null, {
+                        onEachFeature: geo_json_218e96206049461989e974dcf4f850d7_onEachFeature,
+                    
+                });
+        
+                function geo_json_218e96206049461989e974dcf4f850d7_add (data) {
+                    geo_json_218e96206049461989e974dcf4f850d7
+                        .addData(data);
+                }
+                    geo_json_218e96206049461989e974dcf4f850d7_add({&quot;features&quot;: [{&quot;geometry&quot;: {&quot;coordinates&quot;: [[[18.2062318407, 46.7115362994], [18.2104351946, 46.7125641859], [18.2106343336, 46.7122912616], [18.207973744, 46.7116364625], [18.2064063328, 46.7112515042], [18.2063549183, 46.7113608803], [18.2062318407, 46.7115362994]]], &quot;type&quot;: &quot;Polygon&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
+                geo_json_218e96206049461989e974dcf4f850d7.setStyle(function(feature) {return feature.properties.style;});
+        
+                
+            
+                    geo_json_218e96206049461989e974dcf4f850d7.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    var marker_bad82d4411affc20243cc62aa45991d3 = L.marker(
+                        [46.71190982522446, 18.208424054364457],
+                        {}
+                    ).addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                var popup_4eb0739188ee9a9220920e0716a87c51 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        
+                
+                    
+                        var html_25a2f7dbf4d78c988dd0791da62e7b7c = $(`&lt;div id=&quot;html_25a2f7dbf4d78c988dd0791da62e7b7c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Nagyszokoly kt 073/67&lt;/div&gt;`)[0];
+                        popup_4eb0739188ee9a9220920e0716a87c51.setContent(html_25a2f7dbf4d78c988dd0791da62e7b7c);
+                    
+                
+        
+                marker_bad82d4411affc20243cc62aa45991d3.bindPopup(popup_4eb0739188ee9a9220920e0716a87c51)
+                ;
+        
+                
+            
+            
+        
+                function geo_json_fcb65632e340cb5ba84e6a659ebd34fe_onEachFeature(feature, layer) {
+                    layer.on({
+                    });
+                };
+                var geo_json_fcb65632e340cb5ba84e6a659ebd34fe = L.geoJson(null, {
+                        onEachFeature: geo_json_fcb65632e340cb5ba84e6a659ebd34fe_onEachFeature,
+                    
+                });
+        
+                function geo_json_fcb65632e340cb5ba84e6a659ebd34fe_add (data) {
+                    geo_json_fcb65632e340cb5ba84e6a659ebd34fe
+                        .addData(data);
+                }
+                    geo_json_fcb65632e340cb5ba84e6a659ebd34fe_add({&quot;features&quot;: [{&quot;geometry&quot;: {&quot;coordinates&quot;: [[[18.212185915, 46.7291710813], [18.2165934025, 46.7308020813], [18.2164456689, 46.7305410028], [18.2123009678, 46.7290081916], [18.2122474781, 46.729082469], [18.212185915, 46.7291710813]]], &quot;type&quot;: &quot;Polygon&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
+                geo_json_fcb65632e340cb5ba84e6a659ebd34fe.setStyle(function(feature) {return feature.properties.style;});
+        
+                
+            
+                    geo_json_fcb65632e340cb5ba84e6a659ebd34fe.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    var marker_222a52410d5ca157118e11f17c32cc26 = L.marker(
+                        [46.72988222205942, 18.214383053205975],
+                        {}
+                    ).addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                var popup_df77da0e31af00c85f4f40c93081fa98 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        
+                
+                    
+                        var html_fa3113f8c612d8ec3c9f4b03d18ffd30 = $(`&lt;div id=&quot;html_fa3113f8c612d8ec3c9f4b03d18ffd30&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Nagyszokoly kt 0228/27&lt;/div&gt;`)[0];
+                        popup_df77da0e31af00c85f4f40c93081fa98.setContent(html_fa3113f8c612d8ec3c9f4b03d18ffd30);
+                    
+                
+        
+                marker_222a52410d5ca157118e11f17c32cc26.bindPopup(popup_df77da0e31af00c85f4f40c93081fa98)
+                ;
+        
+                
+            
+            
+        
+                function geo_json_bfc9ae16578a472afc1e59518536c946_onEachFeature(feature, layer) {
+                    layer.on({
+                    });
+                };
+                var geo_json_bfc9ae16578a472afc1e59518536c946 = L.geoJson(null, {
+                        onEachFeature: geo_json_bfc9ae16578a472afc1e59518536c946_onEachFeature,
+                    
+                });
+        
+                function geo_json_bfc9ae16578a472afc1e59518536c946_add (data) {
+                    geo_json_bfc9ae16578a472afc1e59518536c946
+                        .addData(data);
+                }
+                    geo_json_bfc9ae16578a472afc1e59518536c946_add({&quot;features&quot;: [{&quot;geometry&quot;: {&quot;coordinates&quot;: [[[18.2123009678, 46.7290081916], [18.2164456689, 46.7305410028], [18.2162303826, 46.730164275], [18.2124707894, 46.7287728331], [18.2123009678, 46.7290081916]]], &quot;type&quot;: &quot;Polygon&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
+                geo_json_bfc9ae16578a472afc1e59518536c946.setStyle(function(feature) {return feature.properties.style;});
+        
+                
+            
+                    geo_json_bfc9ae16578a472afc1e59518536c946.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    var marker_6742dc67b9c2da6c21d004d8de364db9 = L.marker(
+                        [46.72962360924983, 18.214360914886566],
+                        {}
+                    ).addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                var popup_48b3b4c12d74dd15c3d4b4fb301c34c4 = L.popup({&quot;maxWidth&quot;: &quot;100%&quot;});
+        
+                
+                    
+                        var html_6aee4e65033947320327738ef83a60d6 = $(`&lt;div id=&quot;html_6aee4e65033947320327738ef83a60d6&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;Nagyszokoly kt 0228/28&lt;/div&gt;`)[0];
+                        popup_48b3b4c12d74dd15c3d4b4fb301c34c4.setContent(html_6aee4e65033947320327738ef83a60d6);
+                    
+                
+        
+                marker_6742dc67b9c2da6c21d004d8de364db9.bindPopup(popup_48b3b4c12d74dd15c3d4b4fb301c34c4)
+                ;
+        
+                
+            
+            
+                    tile_layer_65297613bcc348e09dc0a8d76cfb56bf.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    geo_json_90024c4cf55ff5deccbc0d8e29e8cfae.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    geo_json_d17b3519a5a358e2c434b4ac1cdae1aa.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    geo_json_c5bda1fc75e4fdd7c7cc1258f809c212.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    geo_json_bbbe95c26255d3dcbb12fb964b649f87.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    geo_json_1b8ee58066160ac7fcbbbd9ddff1fc42.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    geo_json_9bb5e795498c7e44a2edc90c3f42b7e8.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    geo_json_f2e70e6ece1fc3914c1ce9fb6eceeb7f.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    geo_json_218e96206049461989e974dcf4f850d7.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    geo_json_fcb65632e340cb5ba84e6a659ebd34fe.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+            
+                    geo_json_bfc9ae16578a472afc1e59518536c946.addTo(map_842f49e439a8bcc003352cc8f4d31f74);
+                
+        &lt;/script&gt;
+        &lt;/html&gt;" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div>
+    
+</body>
+</html>
